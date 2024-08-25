@@ -18,7 +18,10 @@ This project was developed to test the basic functionalities of a calculator, in
 - **test/**: Contains the test cases that validate the functionalities of the calculator.
 - **results/**: Directory where the test results are stored.
 
-## Pré-requisitos
+## Test File Structure
+![mobile project](https://github.com/user-attachments/assets/eaea0bc9-56a7-40bd-b10f-a6f0dfe089ab)
+
+## Prerequisites
 
 To run this project, you will need to have the following software installed:
 
@@ -58,9 +61,6 @@ pip install -r requirements.txt
     robot -d results test/calculator_test.robot
     ```
 
-## Test File Structure
-![mobile project](https://github.com/user-attachments/assets/eaea0bc9-56a7-40bd-b10f-a6f0dfe089ab)
-
 ### Sample Test Case
 
 ```robot
@@ -73,7 +73,7 @@ Validate Addition Functionality
     Then The Result Should Display "8"
 ```
 
-## Technologies Used
+## Used Technologies 
 
 - **Robot Framework**: Used to define and execute test cases.
 - **Appium**: Automation tool for mobile applications.
