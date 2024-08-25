@@ -1,0 +1,9 @@
+robotframework
+robotframework-appiumlibrary
+robotframework-jsonlibrary
+PyYAML
+robotframework-tidy
+robotframework-robocop
+robotframework-debuglibrary
+robotframework-fakerlibrary
+setuptools
