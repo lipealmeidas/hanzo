@@ -54,6 +54,7 @@ pip install -r requirements.txt
     ```
 
 ## Estrutura dos Arquivos de Teste
+![mobile project](https://github.com/user-attachments/assets/eaea0bc9-56a7-40bd-b10f-a6f0dfe089ab)
 
 ### Exemplo de Caso de Teste
 
