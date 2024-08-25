@@ -1,64 +1,63 @@
 # Mobile Calculator Automation
 
-Este repositório contém a automação de testes para uma aplicação de calculadora simples no Android, utilizando o Robot Framework e Appium.
+This repository contains the test automation for a simple Android calculator application using Robot Framework and Appium.
 
 https://github.com/user-attachments/assets/066ccd08-96be-4343-985e-3dc7b70cbac5
 
 
-## Descrição do Projeto
+## Project Description
 
-Este projeto foi desenvolvido para testar as funcionalidades básicas de uma calculadora, incluindo operações de adição, subtração, multiplicação e divisão. O objetivo é garantir que as operações sejam realizadas corretamente e que o aplicativo responda de acordo com as expectativas.
+This project was developed to test the basic functionalities of a calculator, including addition, subtraction, multiplication, and division operations. The goal is to ensure that the operations are performed correctly and that the application responds as expected.
 
-## Estrutura do Projeto
+## Project Structure
 
-- **app/**: Contém o APK do aplicativo de calculadora.
-- **config/**: Arquivo de configuração para mapeamento de bibliotecas e recursos.
-- **pages/**: Mapeamento dos elementos de página utilizados nos testes.
-- **resource/**: Arquivos de recursos que incluem palavras-chave personalizadas e funções reutilizáveis.
-- **test/**: Contém os casos de teste que validam as funcionalidades da calculadora.
-- **results/**: Diretório onde os resultados dos testes são armazenados.
+- **app/**: Contains the APK of the calculator application.
+- **config/**: Configuration file for mapping libraries and resources.
+- **pages/**: Mapping of page elements used in the tests.
+- **resource/**: Resource files including custom keywords and reusable functions.
+- **test/**: Contains the test cases that validate the functionalities of the calculator.
+- **results/**: Directory where the test results are stored.
 
 ## Pré-requisitos
 
-Para executar este projeto, você precisará ter os seguintes softwares instalados:
+To run this project, you will need to have the following software installed:
 
 - [Python](https://www.python.org/downloads/)
 - [Appium](http://appium.io/)
 - [Robot Framework](https://robotframework.org/)
 
-Além disso, você pode instalar todas as dependências necessárias usando o arquivo `requirements.txt`:
+You can also install all necessary dependencies using the `requirements.txt` file:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Configuração
-
-1. Clone este repositório:
+## Setup
+1. Clone this repository:
     ```bash
     git clone https://github.com/lipealmeidas/hanzo-mobile.git
     ```
-2. Navegue até o diretório do projeto:
+2. Navigate to the project directory:
     ```bash
     cd mobile-calculator-automation
     ```
-3. Configure o Appium conforme necessário para conectar ao seu dispositivo ou emulador Android.
+3. Set up Appium as needed to connect to your Android device or emulator.
 
-## Executando os Testes
+## Running the Tests
 
-1. Inicie o servidor Appium:
+1. Start the Appium server:
     ```bash
     appium -pa wd/hub
     ```
-2. Execute os testes com o Robot Framework:
+2. Run the tests with Robot Framework:
     ```bash
     robot -d results test/calculator_test.robot
     ```
 
-## Estrutura dos Arquivos de Teste
+## Test File Structure
 ![mobile project](https://github.com/user-attachments/assets/eaea0bc9-56a7-40bd-b10f-a6f0dfe089ab)
 
-### Exemplo de Caso de Teste
+### Sample Test Case
 
 ```robot
 *** Test Cases ***
@@ -70,23 +69,12 @@ Validate Addition Functionality
     Then The Result Should Display "8"
 ```
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **Robot Framework**: Utilizado para definir e executar casos de teste.
-- **Appium**: Ferramenta de automação para aplicações móveis.
+- **Robot Framework**: Used to define and execute test cases.
+- **Appium**: Automation tool for mobile applications.
 
-## Contribuição
+## Contact
 
-Se você quiser contribuir para este projeto, sinta-se à vontade para enviar um pull request. Toda contribuição é bem-vinda!
+For more information, contact via email at [souza.felipedealmeida@gmail.com](mailto:souza.felipedealmeida@gmail.com).
 
-## Licença
-
-Este projeto está licenciado sob os termos da [MIT License](LICENSE).
-
-## Contato
-
-Para mais informações, entre em contato pelo e-mail [seu-email@example.com](mailto:seu-email@example.com).
-
----
-
-Basta substituir as informações como o link do repositório, o e-mail de contato, e qualquer outro detalhe específico do seu projeto.
