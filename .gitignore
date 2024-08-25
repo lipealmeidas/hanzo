@@ -10,3 +10,4 @@ allure-report
 csv
 *.html
 *.xml
+pyproject
