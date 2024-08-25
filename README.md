@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 1. Clone este repositório:
     ```bash
-    git clone https://github.com/seu-usuario/mobile-calculator-automation.git
+    git clone https://github.com/lipealmeidas/hanzo-mobile.git
     ```
 2. Navegue até o diretório do projeto:
     ```bash
