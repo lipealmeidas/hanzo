@@ -2,6 +2,8 @@
 
 Este repositório contém a automação de testes para uma aplicação de calculadora simples no Android, utilizando o Robot Framework e Appium.
 
+https://github.com/user-attachments/assets/066ccd08-96be-4343-985e-3dc7b70cbac5
+
 
 ## Descrição do Projeto
 
