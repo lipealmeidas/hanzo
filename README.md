@@ -34,10 +34,12 @@ pip install -r requirements.txt
 
 ## Setup
 1. Clone this repository:
+
     ```bash
     git clone https://github.com/lipealmeidas/hanzo-mobile.git
     ```
 2. Navigate to the project directory:
+
     ```bash
     cd mobile-calculator-automation
     ```
@@ -46,10 +48,12 @@ pip install -r requirements.txt
 ## Running the Tests
 
 1. Start the Appium server:
+
     ```bash
     appium -pa wd/hub
     ```
 2. Run the tests with Robot Framework:
+
     ```bash
     robot -d results test/calculator_test.robot
     ```
