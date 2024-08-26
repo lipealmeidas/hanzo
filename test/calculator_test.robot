@@ -3,8 +3,8 @@ Documentation       Test File
 
 Resource            ../config/package.resource
 
-Suite Setup         Abrir Aplicacao
-Suite Teardown      Fechar Aplicacao
+Suite Setup         Open App
+Suite Teardown      Close Application
 
 
 *** Test Cases ***
